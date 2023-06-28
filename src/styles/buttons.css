@@ -1,0 +1,23 @@
+.button-container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .submit-button,
+  .reset-button {
+    flex: 1;
+    margin-right: 0.2rem;
+    background-color: maroon;
+    color: white;
+    font-size: 1.5rem;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-button:hover,
+  .reset-button:hover {
+    background-color: darkred;
+  }
