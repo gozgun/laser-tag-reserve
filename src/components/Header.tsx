@@ -1,13 +1,7 @@
-import Link from "next/link";
-
 const Header: React.FC = () => {
   return (
     <header className="d-flex justify-content-between align-items-md-center pb-3 mb-5 border-bottom">
       <h1 className="h4">
-        <Link
-          href="/"
-          className="d-flex align-items-center text-dark text-decoration-none"
-        >
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="32"
@@ -20,7 +14,6 @@ const Header: React.FC = () => {
             <path d="M4.002 0a4 4 0 0 0-4 4v8a4 4 0 0 0 4 4h8a4 4 0 0 0 4-4V4a4 4 0 0 0-4-4h-8zm1.06 12V3.545h3.399c1.587 0 2.543.809 2.543 2.11 0 .884-.65 1.675-1.483 1.816v.1c1.143.117 1.904.931 1.904 2.033 0 1.488-1.084 2.396-2.888 2.396H5.062z" />
           </svg>
           <span>Photon Strike Laser Tag | Book A Slot</span>
-        </Link>
       </h1>
     </header>
   );
